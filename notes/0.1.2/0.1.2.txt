@@ -1,0 +1,12 @@
+Allowed infinite number of save slots
+Added bug report button
+Added save delete confirmation
+Added status check to text options
+Allow reapply to part time job the next day after quitting
+
+Fixed Bugs:
+- Belly size threshold for Yumi (if your capacity is very large Yumi will think you're not bloated even at very high stomach contents)
+- Fixed Aria intro event (again)
+
+Known Bugs:
+- Music doesn't work properlly if raining on firefox

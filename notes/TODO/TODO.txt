@@ -1,0 +1,419 @@
+add shower curtains
+
+add helium
+
+receive random gifts when arrive (c)
+
+Add new perspective from bottom up (c)
+
+micro:
+- release animation
+- change shrink index to object name!
+- clickable preview icons (c)
+- phone text msg
+
+Feeding scenes:
+- populate food items + drag feed
+- write feed dialogues
+
+
+
+
+---------
+add censors
+
+add GrowBack flag and create GrowAni when is_location, then create character holder
+
+add balloon (balloon in internal view)
+
+add helium: portable handheld helium (draw over mouth in idle), if above 2kcc start floating
+
+add vibrator and balloon to internal view
+
+skip schedule check for invites if enough likability(d)
+
+auto remove expired items (d)
+
+for item sprites addable to x-ray, add a "_xr" to new sprite (and only add them to queue when sprite exists)(d)
+for liquids, set liquid color and show as transparent circles
+
+use YAL's skew solution
+-----
+add toggle for both pump and bag (and BOTH) (d)
+
+add multiple micro renders (one belly size only)
+
+Add lactation(d)
+- render loop vids (est 1mb ea) (opt)
+
+(d)Add x-ray: not superimpose on each character, but as separate scene that show full-screen x-ray view
+- Keep queue of recently ingested items (mouth and butt)
+- draw food item pieces, each food item is drawn once
+- for now, only one frame (or multiple frames for water levels)
+- add for stomach, bowels and ut
+
+Add micro vore
+- settle with real time shrink and move towards orifice, then open internal view
+- opt insert scenes
+- invite over, ask if ...
+- has to drink digestion stopping pill (opt)
+- start scene if agree:
+- show shrunken down, then grabbed by player and up (2-3 BGs without belly frames)
+	- dont show belly by showing only the hand grabbing
+- for the scene for exiting, simply play in reverse
+- When carrying, show small face stickers + small triangular arrow next to player holder
+-can view the micro char in x-ray view
+
+-----
+(done) when calling character_capacity_modifier, do not change actual cap if lower than current content
+hard cap all positive changes to content to prevent abuse (discard all intakes larger than cap)
+- pills, food, ...
+
+Check for correct capacity mechanic:
+- Fill to full with console, then give food item, then portal item
+- Inflation scenes to exceed limit
+
+add massage cap bonus (like alcohol)
+
+charactermodifier give bonus in feeding scenes
+
+no add feeding to undress scene
+
+cap the gas pill and minipump
+
+---
+censor impl: draw on top of (rely on cropping)
+
+
+set mouth and butt dir for air animation
+poll for dedicated fart/burp content (ex: massage, hold belly for continious release with good sfx...)
+
+add floating stat change icons (for change in stomach/bowels content, or energy) at mouse pos
+- variable watch for each character and player
+- only notify other characters increase in contents
+----
+massage revamp:
+- show cap bonus sticker next to tools
+- listen for blockage and inc bonus for each, cap at 50%
+	- show random waveform for dist
+- no feeding, only pump mouth
+- in undress mode, show toggle between mouth and butt
+----
+add item stack checkbox in backpack:
+- when for loop thu items, put added item index in struct counter, do not add further items of same type
+- after, for each item card, set stack counter from struct counter
+- item card remains the same, aside from drawing stack number
+
+
+Remi add office feeding scene:
+- add police station with NPC
+- talk to NPC to get to Remy office (begin scene, no need new location)
+- office is KK scene
+- First frame is remi sitting writing on desk, show only upper part as scene render for skewing
+- Second frame is feeding scene, show backpack and remi full body (same pose), with very faded desk FG
+
+When switch to belly tab in stats, replace character with X-ray view
+
+add DEB scenes
+
+massage minigame:
+- stomach bar wil lengthen when massage applied (and slowly shorten back)
+	- based on % of current capacity, max 50% extra cap
+- Lust bar increase slightly with massage, more with feeding
+	- kissing will greatly increase, but require likability and some lust?
+	
+Libido:
+- max 100 (some chars start negative). At max, boost lust rate by 5x
+- hug, hickey, massage, feeding inc lust
+	- affection actions only trigger every hour
+	
+streaming other girls will:
+- refuse if too low likability or exhibition
+- if low ex then recrease likability
+
+add overstuffed status
+add bubbling sfx to ControlScene when air+water
+
+(opt) add umbrella item
+- obtained from X likability with Bobbie
+- simply draw overlay on front facing player
+----
+Add coords to each scene for flexible inflate
+flexible pump/ene impl: simply have ControlScene draw the objects inside as needed and initialize the respective inflation type
+- allow pump mouth?
+
+fix shower
+
+add pump opt to sleep scene
+add feeding scene to Aya study
+remove auto trigger for Bambi and Aya's event
+
+Add police station
+- cannot get phone # from there, remi gives formal greeting
+
+add open console button in settings, if mobile, prompt text
+
+pump mechanic:
+- a single "Pump" button, once pressed will be faded for 1s, play pump sound, then become available again
+add enema bag too?
+- or just play/pause
+
+Add remove all expired items button
+
+(opt) slime outbreak
+Occasionally a random day, a slime outbreak gets reported in the news?
+random slimes appear on streets and can be picked up (and eaten, taste like jelly)
+
+Submit slimes to Yumi for a few dollars ea
+
+Apply Yumi's preg program to slimes
+
+slimes can be dropped on floor
+
+add DEB (and others( shower (stand separately)
+- add handpump (if enabled, do not show player ofc)
+
+----------------
+add hand pump to feeding and massage scenes
+
+add censored sprites (quick dupp + edit) with "_c" at the end and check when draw
+
+DEB sleep prank scene
+- Option to lock/unlock door when sleep alone
+------------
+social media update:
+- to get more viewers in streams, must gather following to acc
+- make photo posts at locations
+	- 2 types of poses, one taken by hand, and one using stand
+	- both types can pan around a bit
+- each post user can enter a title
+- posting: show previous posts along with likes and comments
+
+
+-------
+note completed items
+
+query how to increase limit from fav food
+
+Explicit scenes:
+- use handpump: use insert scene, also show Ayume's hand holding the pump
+- undressed: kiss, eat out
+- insert vibrator/plug
+- add mast scenes X
+
+add small x-ray in status for V/anus for inserted vibrator/plug (no cavity)
+----------
+
+Render feed expressions
+
+Add preference foods:
+will discover and show in status (with a quick dialogue) when feed first of such food
+feeding pref food will not trigger refusal until over 30% of current limit
+
+
+----
+
+Add trekking "location"
+- (opt) NPCs gets a scenic pose (shown in place of placeholder)
+
+Add massage scene to Resort and Trek (only change BG if needed)
+
+hug causes burp/fart
+--- 
+
+Show chibi faces of npcs on map with schedule
+
+copy text feature:
+- copy button in dialogue to copy "speaker: text"
+- copy button in settings page corner to copy text from all buttons
+- copy button in popup menu
+
+-----
+
+Add extreme belly sizes for Ayume
+- raise default max threshold
+
+Add torture room
+- Unlock with Bobbie after X likability
+- Cost money to open
+- drug a target to bring them in
+
+- Add night club
+  -  pole dance
+- MV mechanic
+  - Render laying in stomach for ea char
+  - draw stomach (1 size)
+  - views: xray when standing
+  - pills: shrink, digest stop
+  - when shrunk, show glass ball
+- new main menu, use fanart pose, with tube run into a bush next to her
+
+Serious optimization
+- Skip all x-ray contents
+- Hugs: only show upper body and 1 render
+- Lactation: wet area around nipples showing through clothes
+- E interaction: no x-ray
+     - items/food insertions
+	 - handpump (rapid tap  on pump to pump)
+	 - listener (ear)
+	 - If lactating
+	     - option to show ayume licking
+		 - show milk around...
+- Undressed idle renders for each girl (with more exotic poses)
+	 
+
+-----
+Flow Chart
+Each character gets a room
+use icons and objects to place labels and locks
+Separate to Interactions and scenes
+For condition message, copy paste condition check code from lock or leave blank
+
+"New!" sticker
+----
+Massage
+- Energy and lust meter
+- Each action cost energy/s, regardless if raise lust
+Massage action buttons on bottom screen, create massage action when dragged
+- two hands in circular motion
+Lick
+Tubes (lead to air pump)
+- Tap pump to pump air
+Ear
+
+Undress button becomes available after lust reach 80%, but check likability threshold for success
+If lust reach 100% without undressing, will run to bathroom
+- option to peek into bathroom to view masturbate scene
+----
+lactation meds and nipple clamps (jewelry)
+- Req general accessory update
+- add nipple coords
+- when lactating, draw wet patch around breast
+-----
+Wrap Stream w portals in module, core objects and tools
+Import package, then create simple room, ENSURE MODULARITY
+
+lust: temporary
+libido: permanent
+
+fishing countryside location:
+- use NVIDIA CANVAS
+- render fishing action for some, start with Yumi
+- play in river (swimsuits) 
+- all characters: lie down interact scene, but on ground + falling leaves
+- Characters without fishing scene will watch, when asked, say they just wanted to enjoy the view
+
+----------------
+Very basic massage, meant to increase lust
+
+------
+Cheat menu with common button options
+Achievements
+
+----
+
+Hug sprite for each character
+- Viewable without scene (anywhere)
+- Each char has different variation (glomp for Aya, breast grab for Amber, ear lick for Remi...)
+- Simple technique: for each character, render set of belly sizes, then go through each frame and erase the other char
+
+
+Import Stream w Portals
+- Can ask anyone to change pose, including Ayume
+- Allow item insertion
+- Xray handheld (remove x-ray fromstatus altogether)
+
+Import Free roam mechanics
+- Apply first to vacation spots (park with Amber)
+- Two for city map, one when leave house and one for shopping district
+	- Place many public drinking, hoses, and other stuff for interaction
+	- for interactions mostly use existing sprites with offset
+
+Doing sexual interactions in public require exhibitionism and Remi's consent (get her likability + exh high)
+
+
+Add surface panes to all maps
+
+PERSISTENT items:
+- Dropped items remember their position and room
+
+Persistent pets:
+- Pets are bugs from SwP
+- Can hang around on person and move around with them
+
+
+--------
+Add ability to call anyone to current location
+(new var: called_over)
+
+DEB:
+- raise initial cap
+- write methods for infl scenes
+- render back frames
+
+Steth: simply allow the player to use steth in Status xray screen
+
+belly massage: show view of laying down on bed
+
+- Stethoscope instead of ears
+- Press: release air in stomach/bowels
+- Knead: two hands knead towards center, for high freq spots
+- chopping: two hands chopping, for deep grumbling spots
+- Increase lust
+-When lust reach over 60%, can lick to rapidly increase lust
+
+Lust reach 100%:
+- run to bathroom and hear moans
+- Peek option, but see only no scene rendered notice
+
+
+Xray tab: show x-ray on left side replacing full body
+
+-----------------
+
+Phone text UI
+
+Stethoscope:
+- Use on self
+- Use on others scene: ??
+
+Eat together: side view of sitting face to face (like space eater force). drag food from table
+
+
+--------------------
+More intimate scenes
+
+More opportunities to increase likability
+- Giving food gifts
+
+Sleep together: option available (usable) when come over past 9 pm
+- Show only chest up, blanket cover other parts
+- Common interactions:
+	- Hug: base scene to start other interactions from
+	- Kiss forehead: low threshold
+	- Kiss lips
+	- Grope breasts
+	- fingering
+	- Once lust is above threshold, additional option to throw off blanket and...
+- Aya: shy and do not engage in active, player need to engage all actions
+- Amber: will respond back aggressively, once likability is past a threshold Amber will respond first
+
+Aya study actions:
+-  player wrap arms around from behind for a hug
+- kiss back of head
+- kiss front
+- grope breasts
+
+Amber jog actions:
+- Hold hands while jogging
+- When resting:
+	- surprise tackle hug
+- Crazy tube idea (prop)
+
+
+walk around
+- 30% chance of encountering someone who is not busy
+	- Simply state that you saw them, then update vars to appear in room
+	- option to go on date
+	
+lengthen name tag

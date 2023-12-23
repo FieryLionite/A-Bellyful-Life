@@ -1,0 +1,1 @@
+visible = StickerEye.image_index;

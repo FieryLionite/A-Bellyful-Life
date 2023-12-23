@@ -1,0 +1,12 @@
+Zombie food throw
+- 2d, zombie approach, inc size w distance closing in
+- throw food towards mouth
+- thsoe completely full will sit and fade away
+
+Breakout
+- break blocks with cores will send sparkles towards side person
+
+Pinball
+-Drums have food icons
+- when hit, throw out glowing food items that falls down to the bottom chute
+- Shows view on the side with bottom chute on top and character down

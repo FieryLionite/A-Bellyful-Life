@@ -1,0 +1,30 @@
+Libido: influence how fast lust increase, OR dec stress
+
+tools: 
+- transparent when not in effective zone
+- lick: private zones (small) show X, when near private zones, rapidly increase lust but also stress
+
+render:
+- repulse
+- hickey
+- kiss (lips) (opt forehead)
+
+massage minigame used to allow more food
+-----
+Pregnancy mechanics
+
+first training wcap is needed, first appt insert balloon (show diagram Xray)
+each subsequent meeting, Yumi inflate more (show as balloon size + wcap increase in status) (xray opt)
+Yumi can tell how many surr babies can be hosted and player can choose to stop training any time
+pregnant: 
+- show baby icon + "x 1" or "x 2", "x..." + percentage  left
+- if visit Yumi, will be given examination each day and extra money
+once enough days pass, player got 1 day to goto clinic or next time they sleep, will be teleported to clinic
+
+womb capacity calculation:
+- if training, fixed value and increased each visit (each day)
+- if pregnant, calculated based on how many days left and how many babies (after sleeping)
+
+subtract stomach and bowels capacity by half of womb content
+- at step start, subtract, then add back and end of step ev
+- when drawing bars, show the subtracted part as red

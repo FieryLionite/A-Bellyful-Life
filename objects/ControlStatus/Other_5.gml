@@ -1,0 +1,1 @@
+global.status_tab = 0;

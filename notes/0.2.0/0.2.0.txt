@@ -1,0 +1,9 @@
+Implemented mini pumps for everyone!
+reduced swaying animation
+
+Added scenes:
+- Bobbie shower hose inflation
+- Amber garden hose inflation
+
+fixed bugs:
+- day(mon, tue, ...) checking only works in the first week

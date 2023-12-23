@@ -1,0 +1,1 @@
+char.desire_stuffing = ControlMassage.org_desire_stuffing;

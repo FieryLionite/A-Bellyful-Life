@@ -1,0 +1,17 @@
+opt: record version number of each achievement so if new override, say (unlocked at ver xxx)
+Get number of each girl
+
+get one girl to max visual size
+
+get one girl above X likability, desires
+
+wake up at clinic
+----------------------
+Pay mortage: must pay $500 a week
+
+Asthmatic: start at half stamina
+
+weirdo: halve desire rate
+
+glutton: double digest rate (and hunger)
+

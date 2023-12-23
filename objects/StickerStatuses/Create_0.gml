@@ -1,0 +1,1 @@
+select = global.status_tab;

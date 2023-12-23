@@ -1,0 +1,1 @@
+index = index +  global.save_tab*9;

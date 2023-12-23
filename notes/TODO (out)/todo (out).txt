@@ -1,0 +1,3 @@
+Render refusal scene
+
+add misc interactions to normal dialogues

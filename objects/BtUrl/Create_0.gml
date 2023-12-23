@@ -1,0 +1,2 @@
+roomid = noone;
+link = noone;

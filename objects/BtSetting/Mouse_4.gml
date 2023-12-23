@@ -1,0 +1,2 @@
+if (script != noone)
+	script();

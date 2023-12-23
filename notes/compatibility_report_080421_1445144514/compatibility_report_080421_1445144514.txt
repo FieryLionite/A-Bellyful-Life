@@ -1,0 +1,646 @@
+Converting GML script: ${project_dir}\scripts\d_template\d_template.gml
+Converted builtin - line 1: background_index[0] = bgCamp -> __background_set( e__BG.Index, 0, bgCamp )
+
+Converting GML script: ${project_dir}\scripts\d_0101start\d_0101start.gml
+Converted builtin - line 1: background_index[0] = bgCamp -> __background_set( e__BG.Index, 0, bgCamp )
+
+Converting GML script: ${project_dir}\scripts\d_0101end\d_0101end.gml
+Converted builtin - line 1: background_index[0] = bgBarn -> __background_set( e__BG.Index, 0, bgBarn )
+
+Converting GML script: ${project_dir}\scripts\d_0102start\d_0102start.gml
+Converted builtin - line 1: background_index[0] = bgCamp -> __background_set( e__BG.Index, 0, bgCamp )
+
+Converting GML script: ${project_dir}\scripts\d_0102end\d_0102end.gml
+Converted builtin - line 1: background_index[0] = bgMainMenu -> __background_set( e__BG.Index, 0, bgMainMenu )
+
+Converting GML script: ${project_dir}\scripts\d_0103start\d_0103start.gml
+Converted builtin - line 1: background_index[0] = bgCamp -> __background_set( e__BG.Index, 0, bgCamp )
+
+Converting GML script: ${project_dir}\scripts\d_0103end\d_0103end.gml
+Converted builtin - line 1: background_index[0] = bgBarn -> __background_set( e__BG.Index, 0, bgBarn )
+
+Converting GML script: ${project_dir}\scripts\d_0104start\d_0104start.gml
+Converted builtin - line 1: background_index[0] = bgMainMenu -> __background_set( e__BG.Index, 0, bgMainMenu )
+
+Converting GML script: ${project_dir}\scripts\d_0104end\d_0104end.gml
+Converted builtin - line 1: background_index[0] = bgMainMenu -> __background_set( e__BG.Index, 0, bgMainMenu )
+
+Converting GML script: ${project_dir}\scripts\command_intro\command_intro.gml
+Converted builtin - line 14: background_index[0] = bg -> __background_set( e__BG.Index, 0, bg )
+
+Converting GML script: ${project_dir}\scripts\command_bg\command_bg.gml
+Converted builtin - line 2: background_index[0] = index -> __background_set( e__BG.Index, 0, index )
+
+Converting GML script: ${project_dir}\scripts\build_req_check\build_req_check.gml
+Converted description /// @description build_req_check(template)/// @param template
+
+Converting GML script: ${project_dir}\scripts\girl_template_init\girl_template_init.gml
+Converted description /// @description girl_template_init(item1, item2, ...)/// @param item1
+/// @param  item2
+/// @param  ...
+
+Converting GML script: ${project_dir}\scripts\is_adjacent_node\is_adjacent_node.gml
+Converted description /// @description is_adjacent_node(name)/// @param name
+
+Converting GML script: ${project_dir}\scripts\attack_attr_move\attack_attr_move.gml
+Converted description /// @description attack_attr_move(entity1, entity2)/// @param entity1
+/// @param  entity2
+
+Converting GML script: ${project_dir}\scripts\make_girl\make_girl.gml
+Converted description /// @description make_girl(template)/// @param template
+
+Converting GML script: ${project_dir}\scripts\squad_get\squad_get.gml
+Converted description /// @description squad_get(Squad index)/// @param Squad index
+
+Converting GML script: ${project_dir}\scripts\squad_pos_set\squad_pos_set.gml
+Converted description /// @description squad_pos_set(squad, pos, doll)/// @param squad
+/// @param  pos
+/// @param  doll
+
+Converting GML script: ${project_dir}\scripts\squad_set\squad_set.gml
+Converted description /// @description squad_set(num)/// @param num
+
+Converting GML script: ${project_dir}\scripts\item_init\item_init.gml
+Converted description /// @description item_init(item1, item2, ...)/// @param item1
+/// @param  item2
+/// @param  ...
+
+Converting GML script: ${project_dir}\scripts\card_build_make\card_build_make.gml
+Converted description /// @description card_make(x, y, girl)/// @param x
+/// @param  y
+/// @param  girl
+
+Converting GML script: ${project_dir}\scripts\consume\consume.gml
+Converted description /// @description consume(calories)/// @param calories
+
+Converting GML script: ${project_dir}\scripts\dialogue_ok\dialogue_ok.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description dialogue_ok(title, text)/// @param title
+/// @param  text
+
+Converting GML script: ${project_dir}\scripts\effect_weapon\effect_weapon.gml
+Converted description /// @description effect_weapon(sprite, target, source, distance)/// @param sprite
+/// @param  target
+/// @param  source
+/// @param  distance
+
+Converting GML script: ${project_dir}\scripts\card_make\card_make.gml
+Converted description /// @description card_make(x, y, girl)/// @param x
+/// @param  y
+/// @param  girl
+
+Converting GML script: ${project_dir}\scripts\dialogue_question\dialogue_question.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description dialogue_question(title, text, script)/// @param title
+/// @param  text
+/// @param  script
+
+Converting GML script: ${project_dir}\scripts\effect_stat\effect_stat.gml
+Converted description /// @description effect_stat(x, y, type, value)/// @param x
+/// @param  y
+/// @param  type
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\scale_canvas\scale_canvas.gml
+Converted description /// @description  scale_canvas(base width, base height, current width, current height, center);/// @param base width
+/// @param  base height
+/// @param  current width
+/// @param  current height
+/// @param  center
+
+Converting GML script: ${project_dir}\scripts\node_get\node_get.gml
+Converted description /// @description node_get(name)/// @param name
+
+Converting GML script: ${project_dir}\scripts\mission_register\mission_register.gml
+Converted description /// @description mission_register(stage, title, room)/// @param stage
+/// @param  title
+/// @param  room
+
+Converting GML script: ${project_dir}\scripts\dialogue_start_FT\dialogue_start_FT.gml
+Converted description /// @description dialogue_start(script)/// @param script
+
+Converting GML script: ${project_dir}\scripts\check_feeding\check_feeding.gml
+Converted description /// @description check_feeding(food)/// @param food
+
+Converting GML script: ${project_dir}\scripts\feed\feed.gml
+Converted description /// @description feed (calories, weight, type)/// @param calories
+/// @param  weight
+/// @param  type
+
+Converting GML script: ${project_dir}\scripts\expression_set\expression_set.gml
+Converted description /// @description expression_set(expression, duration)/// @param expression
+/// @param  duration
+
+Converting GML script: ${project_dir}\scripts\credits_open\credits_open.gml
+Converted string - line 1: 'https://fierylion.itch.io/food-therapy/devlog/85718/credits-page' -> "https://fierylion.itch.io/food-therapy/devlog/85718/credits-page"
+
+Converting GML script: ${project_dir}\scripts\g_get\g_get.gml
+Converted description /// @description g_get(key)/// @param key
+
+Converting GML script: ${project_dir}\scripts\g_set\g_set.gml
+Converted description /// @description g_set(key, value)/// @param key
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\time_forward_minutes\time_forward_minutes.gml
+Converted description /// @description time_forward(minutes)/// @param minutes
+
+Converting GML script: ${project_dir}\scripts\time_forward_hour\time_forward_hour.gml
+Converted description /// @description time_forward(minutes)/// @param minutes
+
+Converting GML script: ${project_dir}\scripts\tick_all\tick_all.gml
+Converted description /// @description tick_all(hours)/// @param hours
+
+Converting GML script: ${project_dir}\scripts\say_bubble\say_bubble.gml
+Converted description /// @description say(char, msg, duration)/// @param char
+/// @param  msg
+/// @param  duration
+
+Converting GML script: ${project_dir}\scripts\dialogue_create\dialogue_create.gml
+Converted description /// @description dialogue_create(index, question, type, response)/// @param index
+/// @param  question
+/// @param  type
+/// @param  response
+
+Converting GML script: ${project_dir}\scripts\say\say.gml
+Converted description /// @description say(msg, blush = false, duration)/// @param msg
+/// @param  blush = false
+/// @param  duration
+
+Converting GML script: ${project_dir}\scripts\d_testtest\d_testtest.gml
+Converted builtin - line 2: background_index[0] = bgParkNight -> __background_set( e__BG.Index, 0, bgParkNight )
+
+Converting GML script: ${project_dir}\scripts\ctb_init\ctb_init.gml
+Converted description /// @description  ctb_init();
+
+Converting GML script: ${project_dir}\scripts\ctb_list\ctb_list.gml
+Converted description /// @description ctb_list(finish script, finish room, text, text, text...)/// @param finish script
+/// @param  finish room
+/// @param  text
+/// @param  text
+/// @param  text...
+
+Converting GML script: ${project_dir}\scripts\ctb_load_normal\ctb_load_normal.gml
+Converted description /// @description  ctb_load_normal( sprite, width, height )/// @param  sprite
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\ctb_load_subimage\ctb_load_subimage.gml
+Converted description /// @description  ctb_load_subimage( sprite, width, height )/// @param  sprite
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\ctb_load_slice9\ctb_load_slice9.gml
+Converted description /// @description  ctb_load_slice9( sprite, left, right, top, bottom, width, height )/// @param  sprite
+/// @param  left
+/// @param  right
+/// @param  top
+/// @param  bottom
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\ctb_add_color\ctb_add_color.gml
+Converted description /// @description  ctb_add_color( color_name, color_value );/// @param  color_name
+/// @param  color_value
+
+Converting GML script: ${project_dir}\scripts\ctb_add_font\ctb_add_font.gml
+Converted description /// @description  ctb_add_font( font_name, font_value );/// @param  font_name
+/// @param  font_value
+
+Converting GML script: ${project_dir}\scripts\ctb_add_sound\ctb_add_sound.gml
+Converted description /// @description  ctb_add_sound( sound_name, sound_value );/// @param  sound_name
+/// @param  sound_value
+
+Converting GML script: ${project_dir}\scripts\ctb_add_command\ctb_add_command.gml
+Converted description /// @description  ctb_add_command( cmd_name, cmd_script )/// @param  cmd_name
+/// @param  cmd_script
+
+Converting GML script: ${project_dir}\scripts\ctb_create\ctb_create.gml
+Converted description /// @description  ctb_create
+
+Converting GML script: ${project_dir}\scripts\ctb_add_text\ctb_add_text.gml
+Converted description /// @description  ctb_add_text( [ textbox_id ], text );/// @param  [ textbox_id ]
+/// @param  text
+
+Converting GML script: ${project_dir}\scripts\ctb_set_key\ctb_set_key.gml
+Converted description /// @description  ctb_set_key( key )/// @param  key
+
+Converting GML script: ${project_dir}\scripts\ctb_update\ctb_update.gml
+Converted description /// @description  ctb_update()
+Converted string - line 48: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\ctb_draw\ctb_draw.gml
+Converted description /// @description  ctb_draw()
+
+Converting GML script: ${project_dir}\scripts\ctb_set_padding\ctb_set_padding.gml
+Converted description /// @description  ctb_set_padding( left, right, top, bottom )/// @param  left
+/// @param  right
+/// @param  top
+/// @param  bottom
+
+Converting GML script: ${project_dir}\scripts\ctb_parse_text\ctb_parse_text.gml
+Converted description /// @description  ctb_parse_text( text )/// @param  text
+
+Converting GML script: ${project_dir}\scripts\_ctb_create_tag\_ctb_create_tag.gml
+Converted description /// @description  _ctb_create_tag( tag_name, tag_value );/// @param  tag_name
+/// @param  tag_value
+
+Converting GML script: ${project_dir}\scripts\_ctb_create_word\_ctb_create_word.gml
+Converted description /// @description  _ctb_create_word( x,y,color,font,text );/// @param  x
+/// @param y
+/// @param color
+/// @param font
+/// @param text
+
+Converting GML script: ${project_dir}\scripts\_ctb_build_word_list\_ctb_build_word_list.gml
+Converted description /// @description  _ctb_build_word_list( text )/// @param  text
+Converted string - line 73: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\_ctb_word_to_message\_ctb_word_to_message.gml
+Converted description /// @description  _ctb_word_to_message( text_area_width, text_area_height, words )/// @param  text_area_width
+/// @param  text_area_height
+/// @param  words
+Converted string - line 31: "\#" -> "\\#"
+Converted string - line 31: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\msg_static\msg_static.gml
+Converted description /// @description msg_static(message_string);/// @param message_string
+
+Converting GML script: ${project_dir}\scripts\add_dropdown_option\add_dropdown_option.gml
+Converted description /// @description add_dropdown_option(array_position, main icon, option text, action icon, add optional separator)/// @param array_position
+/// @param  main icon
+/// @param  option text
+/// @param  action icon
+/// @param  add optional separator
+
+Converting GML script: ${project_dir}\scripts\action_pump\action_pump.gml
+Converted description /// @description action_pump(zone);/// @param zone
+
+Converting GML script: ${project_dir}\scripts\create_item\create_item.gml
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\scripts\create_item\create_item.gml - 4: unexpected syntax error
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\scripts\create_item\create_item.gml - 4: malformed variable reference got nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\scripts\create_item\create_item.gml - 4: unexpected terminal operator nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\scripts\create_item\create_item.gml - 5: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\scripts\create_item\create_item.gml
+
+Converting GML script: ${project_dir}\scripts\use_item\use_item.gml
+Converted description /// @description use_item(item, zone)/// @param item
+/// @param  zone
+
+Converting GML script: ${project_dir}\scripts\stat_create\stat_create.gml
+Converted description /// @description stat_create(name, max, start)/// @param name
+/// @param  max
+/// @param  start
+
+Converting GML script: ${project_dir}\scripts\ability_create\ability_create.gml
+Converted description /// @description ability_create(name, cost)/// @param name
+/// @param  cost
+
+Converting GML script: ${project_dir}\scripts\set_night_bg\set_night_bg.gml
+Converted builtin - line 1: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 4: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 7: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 10: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 13: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 2: background_index[0] = bgClassroomNight -> __background_set( e__BG.Index, 0, bgClassroomNight )
+Converted builtin - line 5: background_index[0] = bgDormNight -> __background_set( e__BG.Index, 0, bgDormNight )
+Converted builtin - line 8: background_index[0] = bgLibraryNight -> __background_set( e__BG.Index, 0, bgLibraryNight )
+Converted builtin - line 11: background_index[0] = bgParkNight -> __background_set( e__BG.Index, 0, bgParkNight )
+Converted builtin - line 14: background_index[0] = bgBeachNight -> __background_set( e__BG.Index, 0, bgBeachNight )
+
+Converting GML script: ${project_dir}\scripts\set_day_bg\set_day_bg.gml
+Converted builtin - line 1: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 4: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 7: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 10: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 13: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 2: background_index[0] = bgClassroom -> __background_set( e__BG.Index, 0, bgClassroom )
+Converted builtin - line 5: background_index[0] = bgDormDay -> __background_set( e__BG.Index, 0, bgDormDay )
+Converted builtin - line 8: background_index[0] = bgLibrary -> __background_set( e__BG.Index, 0, bgLibrary )
+Converted builtin - line 11: background_index[0] = bgPark -> __background_set( e__BG.Index, 0, bgPark )
+Converted builtin - line 14: background_index[0] = bgBeachDay -> __background_set( e__BG.Index, 0, bgBeachDay )
+
+Font font0 has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font0\font0.gms1.png
+Font font1 has been converted to font family Tahoma (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font1\font1.gms1.png
+!!! Font f_normal uses a font (Ubuntu) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_normal\f_normal.gms1.png
+!!! Font f_other uses a font (Ubuntu) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_other\f_other.gms1.png
+Font fnt_popup has been converted to font family Consolas (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_popup\fnt_popup.gms1.png
+Font fontReport has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fontReport\fontReport.gms1.png
+Font fontName has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fontName\fontName.gms1.png
+Font fnt_dialogue has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_dialogue\fnt_dialogue.gms1.png
+Converting GML script: ${project_dir}\objects\DragPanel\Step_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\btCheck\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\btCheck\Mouse_4.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\Control\Create_0.gml
+Error: variable 'variable_global_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\ControlMission\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\ControlSelect\Step_0.gml
+Converted builtin - line 7: view_yview += move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (move) )
+
+Converting GML script: ${project_dir}\objects\ControlSelectBuild\Step_0.gml
+Converted builtin - line 7: view_yview += move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (move) )
+
+Converting GML script: ${project_dir}\objects\ControlBattle\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\ControlBattle\Step_0.gml
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 13: view_yview = room_height - view_hview -> __view_set( e__VW.YView, 0, room_height - view_hview )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ControlDrop\Step_0.gml
+Converted builtin - line 7: view_yview += move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (move) )
+
+Converting GML script: ${project_dir}\objects\ControlInventory\Step_0.gml
+Converted builtin - line 7: view_yview += move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (move) )
+
+Converting GML script: ${project_dir}\objects\ControlUpgrade\Step_0.gml
+Converted builtin - line 7: view_yview += move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (move) )
+
+Converting GML script: ${project_dir}\objects\DialogueOk\Draw_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\DialogueYesNo\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\DialogueYesNo\Mouse_7.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\DialogueYesNo\Draw_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\ButtonScroll\Step_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -= move*0.1 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - (move*0.1) )
+Converted builtin - line 8: view_yview -= move -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - (move) )
+
+Converting GML script: ${project_dir}\objects\ButtonScroll\Mouse_4.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\ButtonHelp\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\ButtonHelp\Step_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\ToolRubCard\Create_0.gml
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\ToolRubCard\Step_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\CheckPoint\Alarm_1.gml
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 8: unexpected syntax error
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 8: malformed variable reference got nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 8: unexpected terminal operator nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 9: unexpected syntax error
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 9: unexpected terminal operator nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 10: unexpected syntax error
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 10: unexpected terminal operator nw
+ERROR: C:\Users\Mango\AppData\Local\GameMakerStudio2\GMS2TEMP\conv\gmx\Portal Stuffing_704C9C96\objects\CheckPoint\Alarm_1.gml - 11: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\CheckPoint\Alarm_1.gml
+
+Converting GML script: ${project_dir}\objects\Button\Create_0.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\Button\Step_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\Button\Mouse_4.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\Bubble\Draw_0.gml
+Converted string - line 7: 'Q' -> "Q"
+
+Converting GML script: ${project_dir}\objects\oDropDown\Create_0.gml
+Converted builtin - line 42: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 46: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 48: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 53: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 55: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 48: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 46: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 55: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted description /// @description Change the look and feel
+
+Converting GML script: ${project_dir}\objects\oDropDown\Step_1.gml
+Converted description /// @description Find Selected
+
+Converting GML script: ${project_dir}\objects\oDropDown\Mouse_54.gml
+Converted description /// @description Only allow one box
+
+Converting GML script: ${project_dir}\objects\oDropDown\Mouse_53.gml
+Converted description /// @description Remove if not clicked
+
+Converting GML script: ${project_dir}\objects\oDropDown\Other_10.gml
+Converted description /// @description Override me for each option
+
+Converting GML script: ${project_dir}\objects\oDropDown\Draw_0.gml
+Converted description /// @description Draw the box
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Create_0.gml
+Converted builtin - line 56: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 58: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 60: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 65: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 67: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 69: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 62: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 60: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 69: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Step_1.gml
+Converted description /// @description Find Selected
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Mouse_54.gml
+Converted description /// @description Only allow one box
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Mouse_53.gml
+Converted description /// @description Remove if not clicked
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Other_10.gml
+Converted description /// @description Override me for each option
+
+Converting GML script: ${project_dir}\objects\dropdown_dialogue\Draw_0.gml
+Converted description /// @description Draw the box
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Create_0.gml
+Converted builtin - line 45: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 47: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 49: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 54: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 56: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 58: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 51: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 49: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 58: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Step_1.gml
+Converted description /// @description Find Selected
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Mouse_54.gml
+Converted description /// @description Only allow one box
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Mouse_53.gml
+Converted description /// @description Remove if not clicked
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Other_10.gml
+Converted description /// @description Override me for each option
+
+Converting GML script: ${project_dir}\objects\dropdown_music\Draw_0.gml
+Converted description /// @description Draw the box
+
+Converting GML script: instance inst_2987C3B6 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_5E3A0DFD creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_90CEAC60 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_C7D752B2 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_159A92E4 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_26D3AEA6 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_FC7A805D creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_5C8277D2 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_1BA1DEFF creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_830EDE96 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_A6718DED creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_630F1B04 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_2F69229A creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_8108C782 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_501AFE97 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_1BA1DEFF creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_C9DDB9DD creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_A3875C1B creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_07AB9221 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_A3875C1B creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_02A31DBA creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_B95159F0 creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: instance inst_1BA1DEFF creation code
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'bellyair' - setting to default audio group
+Missing audiogroup for sound: 'burp1' - setting to default audio group
+Missing audiogroup for sound: 'burp2' - setting to default audio group
+Missing audiogroup for sound: 'burp3' - setting to default audio group
+Missing audiogroup for sound: 'burp4' - setting to default audio group
+Missing audiogroup for sound: 'burp5' - setting to default audio group
+Missing audiogroup for sound: 'waterflow' - setting to default audio group
+Missing audiogroup for sound: 'music_trance' - setting to default audio group
+Missing audiogroup for sound: 'chew1' - setting to default audio group
+Missing audiogroup for sound: 'chew2' - setting to default audio group
+Missing audiogroup for sound: 'chew3' - setting to default audio group
+Missing audiogroup for sound: 'chew4' - setting to default audio group
+Missing audiogroup for sound: 'swallow1' - setting to default audio group
+Missing audiogroup for sound: 'swallow2' - setting to default audio group
+Missing audiogroup for sound: 'swallow3' - setting to default audio group
+Missing audiogroup for sound: 'swallow4' - setting to default audio group
+Missing audiogroup for sound: 'music_classical' - setting to default audio group
+Missing audiogroup for sound: 'music_lowfi' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_another_room.gml'
+Added compatibility script 'action/action_font.gml'
+Added compatibility script 'action/action_if.gml'
+Added compatibility script 'action/action_if_dice.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move_to.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_exists.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

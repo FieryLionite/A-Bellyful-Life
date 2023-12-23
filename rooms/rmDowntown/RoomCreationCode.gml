@@ -1,0 +1,1 @@
+background_set(asset_get_index("sprDowntown"+str(choose(1,2,3,4))))

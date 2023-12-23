@@ -1,0 +1,1 @@
+d_player_pool_enter();

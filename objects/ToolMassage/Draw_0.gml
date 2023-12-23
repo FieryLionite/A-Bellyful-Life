@@ -1,0 +1,2 @@
+draw_sprite_ext(sprite_index, image_index, x + hand_dist, y, scale_right, scale_right, 0, c_white, image_alpha);
+draw_sprite_ext(sprite_index, image_index, x - hand_dist, y, -1*scale_left, scale_left, 0, c_white, image_alpha);

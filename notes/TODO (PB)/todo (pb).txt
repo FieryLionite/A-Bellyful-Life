@@ -1,0 +1,15 @@
+(opt) select characters
+Hide in bottom left obstacle, over look the entire arena(opt) allow look left right
+WHen hit target, show paint on their faces
+When hit by someone, show paitn on face when turned back (use surfs)
+winner gets PU
+when hiding, PU, blur background
+takes time to aim (1s)
+
+(opt) items before fight coffee: reduce aim time and cap, inc pu time
+	- tea: opposite
+	
+"paintable" surfaces:
+- player face
+- obstacles (only 1 surf)
+- npc faces (only 1 surf)

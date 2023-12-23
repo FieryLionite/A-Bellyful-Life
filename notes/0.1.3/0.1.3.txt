@@ -1,0 +1,8 @@
+Added blurred backgrounds to replace the wide black striped on wide screen phones
+Added streaming mechanics as an extra way to get income
+Food in fridge now expires 6x slower than outside food
+Adjusted Aria's first inflation scene to use better threshold values. Also made sure the pressure dial properly represents her capacity (when increased)
+
+Fixed bugs:
+- play say the gas/noise pill dialogue meant for other characters
+- Fixed pill bottles using 2 pills at once

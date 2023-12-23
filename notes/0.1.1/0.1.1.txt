@@ -1,0 +1,12 @@
+New game will prompt to enter player name
+Extended Aria's after rescue dialogue
+Added reaction dialogues to characters after you give them pill
+Added Bobbie's smoking together scene dialogues
+Added new BGM when its raining (thanks to BalloonBobbie#3004)
+Added muffled rain sfx when in doors
+Slightly increase the rate at which everyone increase max capacity (25%)
+
+Fixed Bugs:
+- Amber's upper body is displaced
+- pressing ctrl, space, shift will crash the game
+- Aria's pump cutscene increasing her capacity by 40000 or more!

@@ -1,0 +1,5 @@
+depth = -1000;
+
+if (!in_dialogue())
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 
+		image_angle, color, image_alpha);

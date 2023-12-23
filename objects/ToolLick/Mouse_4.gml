@@ -1,0 +1,2 @@
+if (visible)
+	dragging = true;

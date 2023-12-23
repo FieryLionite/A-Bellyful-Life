@@ -1,0 +1,3 @@
+function animation_init(){
+
+}
